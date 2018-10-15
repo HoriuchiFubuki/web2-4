@@ -1,1 +1,71 @@
+@charset "utf-8";
+body
+{
+  background-color: #D0E0C0;
+}
+#main
+{
+  width: 960px;
+  margin: 40px auto;
+  padding: 40px 80px;
+  border: green 1px solid;
+  background-color: white;
+}
 
+.explanation
+{
+  float: left;
+  width: 468;
+}
+dt
+{
+  clear: left;
+  float: left;
+  font-weight: bold;
+}
+
+.button
+{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.button:hover
+{
+  color: red;
+}
+.button:active
+{
+  color: yellow;
+}
+.button-submit
+{
+  background-color: silver;
+}
+
+#ingredient
+{
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+th
+{
+  border: 1px solid blue;
+  background-color: coralblue;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
+td
+{
+  border: 1px solid blue;
+  padding: 5px;
+  width: 80px;
+  text-align: right;
+}
